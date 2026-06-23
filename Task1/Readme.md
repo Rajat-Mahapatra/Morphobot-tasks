@@ -15,3 +15,5 @@ Tasks-
 
 Unfortunately in this question, I could not find any favourable value of Kp,Ki and Kd which can reach the setpoint value, however I have attached the graphs at the given values.
 
+
+As informed, i have now updated the code and graph , now i am getting the proper graph at kp=1, ki=-16 and kd=0.

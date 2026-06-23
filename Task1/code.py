@@ -77,9 +77,9 @@ ax1_Kd=plt.axes([0.15,0.10,0.65,0.03])
 
 # implementing the slider 
                 #(axis,labelling,start value,end value,initial value, scale)
-slider_Kp=Slider(ax1_Kp,'Kp proportional',0.0,100.0, valinit=initial_Kp,valstep=0.001)
-slider_Ki=Slider(ax1_Ki,'Ki integral',0.0,20.0, valinit=initial_Ki,valstep=0.001)
-slider_Kd=Slider(ax1_Kd,'Kd derivative',0.0,20.0, valinit=initial_Kd,valstep=0.001)
+slider_Kp=Slider(ax1_Kp,'Kp proportional',-100,10.0, valinit=initial_Kp,valstep=0.001)
+slider_Ki=Slider(ax1_Ki,'Ki integral',-100,50.0, valinit=initial_Ki,valstep=0.001)
+slider_Kd=Slider(ax1_Kd,'Kd derivative',-100,20.0, valinit=initial_Kd,valstep=0.001)
 
 #for updating values in slider, we use this function
 def update(val):
